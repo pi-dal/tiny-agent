@@ -1,0 +1,17 @@
+{
+  "name": "mini-agent",
+  "version": "1.0.0",
+  "description": "mini-agent — simple TUI agent with bash tool and session management (Node.js port)",
+  "type": "module",
+  "main": "agent.mjs",
+  "bin": {
+    "mini-agent": "./agent.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.104.0"
+  },
+  "scripts": {
+    "start": "node agent.mjs",
+    "dev": "node agent.mjs"
+  }
+}

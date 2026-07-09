@@ -1,0 +1,29 @@
+# Secrets / env
+.env
+.env.local
+.env.*.local
+
+# Session / runtime artifacts
+sessions/
+*.session.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
